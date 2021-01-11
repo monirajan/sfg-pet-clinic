@@ -6,6 +6,7 @@ import java.util.Set;
 
 public class Owner extends Person {
 
+    /*Commit to git*/
     private String address;
     private String city;
     private String telephone;
