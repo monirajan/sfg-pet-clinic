@@ -1,6 +1,7 @@
 package guru.springframework.sfgpetclinic.services.Map;
 
 import guru.springframework.sfgpetclinic.model.BaseEntity;
+import guru.springframework.sfgpetclinic.model.Owner;
 
 import java.util.*;
 
@@ -56,4 +57,5 @@ public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> 
         }
         return nextId;
     }
+
 }
