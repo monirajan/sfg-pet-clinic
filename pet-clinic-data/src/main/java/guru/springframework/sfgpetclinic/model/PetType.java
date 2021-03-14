@@ -15,4 +15,9 @@ public class PetType extends BaseEntity{
     public void setPetName(String petName) {
         this.petName = petName;
     }
+
+    @Override
+    public String toString() {
+        return petName;
+    }
 }
